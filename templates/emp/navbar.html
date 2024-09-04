@@ -1,0 +1,33 @@
+{% if user.is_authenticated %}
+<nav class="navbar navbar-expand-lg navbar-light" style="background-color: #0077B6; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);">
+    <div class="container-fluid">
+        <a class="navbar-brand text-white fw-bold" href="{% url 'emp_home' %}" style="font-size: 1.5rem; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; margin-left: 1.5rem;">
+            Employee Management System
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarNav" aria-controls="navbarNav"
+                aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                    <a class="nav-link btn btn-light text-primary" href="{% url 'emp_home' %}" style="margin: 0 1.5rem; padding: 0.5rem 1rem; border-radius: 20px; font-weight: 500;">
+                        Employee Table
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link btn btn-light text-primary" href="{% url 'add_emp' %}" style="margin: 0 1.5rem; padding: 0.5rem 1rem; border-radius: 20px; font-weight: 500;">
+                        Add Employee
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link btn btn-light text-primary" href="{% url 'logout' %}" style="margin: 0 1.5rem; padding: 0.5rem 1rem; border-radius: 20px; font-weight: 500;">
+                        Logout
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+{% endif %}
