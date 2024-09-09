@@ -1,5 +1,5 @@
 
-# Employee Management System
+# Task 2 in my Full-Stack Web Development internship at Prodigy InfoTech! 
 
 An Employee Management System in Django keeps track of all of the employee’s information and data. We’ve created all of the employee's and company crud (create, read, update, and delete) operations. This is a role-based module in which the admin can perform any operation on the data.
 
