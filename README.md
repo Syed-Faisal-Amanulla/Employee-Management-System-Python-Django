@@ -3,6 +3,10 @@
 
 An Employee Management System in Django keeps track of all of the employee’s information and data. We’ve created all of the employee's and company crud (create, read, update, and delete) operations. This is a role-based module in which the admin can perform any operation on the data.
 
+## Sample video of this Project
+
+Employee Management System - https://shorturl.at/kMVnt
+
 ## Features
 
 •	Add Employee - The admin can add the employee in this software.
@@ -14,10 +18,6 @@ An Employee Management System in Django keeps track of all of the employee’s i
 •	Delete Employee - The admin can remove the employee from the database.
 
 > This Application was created using Python, Django, HTML/CSS, and Bootstrap.
-
-## Sample video of this Project
-
-Employee Management System - https://shorturl.at/kMVnt
 
 ## Installation 
 
